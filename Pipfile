@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+Django = "3.2"
+djangorestframework = "*"
+django-webpack-loader = "*"
+django-cors-headers = "*"
+dataclasses = "*"
+PyYAML = "5.3"
+uritemplate = "3.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
